@@ -11,7 +11,7 @@
   }
 
   body {
-    background: linear-gradient(135deg, #f0f8ff, #add8e6);
+    background: linear-gradient(135deg, #f0f8ff, #ccf1fd);
     color: #121212; 
     font-family: 'Arial', sans-serif;
     font-size: 16px;
@@ -75,7 +75,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    background-color: #007EA7;
+    background-color: #2196f3;
     position: fixed;
     width: 100%;
     top: 0;
@@ -548,6 +548,10 @@
     transition: transform 0.3s ease, color 0.3s ease;
   }
 
+  .Footer{
+    background:#2196f3
+  }
+
   footer .social-media a:hover {
     transform: scale(1.2); /* Enlarge icons on hover */
     color: #03C03C; /* Change color */
@@ -739,7 +743,7 @@
 .notice-bar-container {
   display: flex;
   align-items: center;
-  background-color: #29A4D6; /* Light blue background color */
+  background-color: #2196f3; /* Light blue background color */
   overflow: hidden;
   font-size: 18px;
   font-weight: bold;
@@ -748,7 +752,7 @@
 
 /* Static "Updates" label */
 .updates-label {
-  background-color: #007EA7; /* Darker blue for contrast */
+  background-color: #000101; /* Darker blue for contrast */
   color: #ffffff;
   padding: 10px 15px;
   white-space: nowrap;
