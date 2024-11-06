@@ -219,6 +219,9 @@
         color: blue;
         text-decoration: none;
       }
+      .card a:hover {
+        text-decoration: underline;
+      }
 
   /***Button***/
   .button-33 {
@@ -810,7 +813,7 @@
   }
 
   .scrolling-text {
-      animation: scroll-left 16s linear infinite; /* Slightly slower for readability */
+      animation: scroll-left 14s linear infinite; /* Slightly slower for readability */
       font-size: 16px;
     }
 }
@@ -826,7 +829,7 @@
   }
 
   .scrolling-text {
-      animation: scroll-left 16s linear infinite;
+      animation: scroll-left 14s linear infinite;
       font-size: 16px;
   }
 }
