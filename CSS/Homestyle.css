@@ -784,7 +784,7 @@
 /* Keyframes for scrolling from right with a slight offset */
 @keyframes scroll-left {
   0% {
-      transform: translateX(125%); /* Start at a bit back from the right edge */
+      transform: translateX(135%); /* Start at a bit back from the right edge */
   }
   100% {
       transform: translateX(-100%); /* Move fully to the left */
